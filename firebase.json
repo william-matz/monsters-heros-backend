@@ -16,8 +16,9 @@
     ],
     "rewrites": [
       {
-        "source": "**",
-        "destination": "/index.html"
+        "source": "/api/v1/**",
+        "destination": "/index.html",
+        "function": "webApi"
       }
     ]
   }
